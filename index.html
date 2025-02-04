@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recherche de Séries TV</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="index.js" defer></script>
+  <style>
+    body {
+      background-color: #f8f9fa;
+      padding-top: 50px;
+    }
+    .card {
+      margin-top: 20px;
+    }
+    .series-img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1 class="text-center mb-4">Recherche de Séries TV</h1>
+  <div class="input-group mb-3">
+    <input type="text" id="search-input" class="form-control" placeholder="Entrez le nom d'une série">
+    <div class="input-group-append">
+      <button id="search-button" class="btn btn-primary">Rechercher</button>
+    </div>
+  </div>
+  <div id="results" class="row"></div>
+</div>
+</body>
+</html>
