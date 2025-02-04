@@ -1,0 +1,1 @@
+ce projet permet de créer une single  page application (SPA) en utilisant jQuery qui permet de rechercher des séries et d'afficher les informations sur la série en utilisant l'API TV Maze : https://www.tvmaze.com/api
